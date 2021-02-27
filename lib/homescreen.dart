@@ -56,7 +56,7 @@ class _HomeScreenState extends State<HomeScreen>
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Dicee'),
+        title: Text('ROLL n ROCK'),
       ),
       body: Center(
         child: Column(
@@ -93,7 +93,7 @@ class _HomeScreenState extends State<HomeScreen>
             RaisedButton(
               onPressed: roll,
               child: Text(
-                'Roll',
+                'ROLL',
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
             )
